@@ -1,13 +1,13 @@
 # Digital Standard Cell Characterizer (DSCC)  
 
 ### 📌 Important:
-### 1. The tool only characterizes combinational cells for nodes greater that or equal to 130nm because it is based on the Non linear delay model (NLDM) for timing characterization. The support for sequential cells will be added in the future.
-### 2. I still have to refactor the code, task I will be doing while I study my courses on Software Development on Coursera.
+**1. The tool only characterizes combinational cells for nodes greater that or equal to 130nm because it is based on the Non linear delay model (NLDM) for timing characterization. The support for sequential cells will be added in the future.**  
+**2. I still have to refactor the code, task I will be doing while I study my courses on Software Development on Coursera.**  
 <br>
 
 ## Demo
-> ⚠️ **Instructions:**  
-> **The output loads are in picofarads [pF] and the transition times in nanoseconds [ns].**
+**Instructions:**  
+**The output loads are in picofarads [pF] and the transition times in nanoseconds [ns].**
 
 ~~~ bash
 python3 dscc.py thesis_aoi211.mag \\
@@ -19,7 +19,7 @@ python3 dscc.py thesis_aoi211.mag \\
 <div align="center"><video src="https://github.com/ledzeg/dscc/assets/107968926/7c6d5b47-cb7b-424a-942b-abe0cdf93e18"></video></div>
 
 ## Slides
-#### In these slides you will find an explanation on how the tool was developed, that is, the algorithms to characterize the cells and to identify the logical function of them. This tool was developed to be used in the main proyect of [Open-Source Standard Cell Design Methodology](https://github.com/ledzeg/stdcell-methodology) 
+**In these slides you will find an explanation on how the tool was developed, that is, the algorithms to characterize the cells and to identify the logical function of them. This tool was developed to be used in the main proyect of [Open-Source Standard Cell Design Methodology](https://github.com/ledzeg/stdcell-methodology)**
 <br>
 <div align="center"><b >👇🏼 Click on the image to watch the slides</b></div>
 <br>
