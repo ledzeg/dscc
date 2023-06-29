@@ -1,10 +1,13 @@
 # Digital Standard Cell Characterizer (DSCC)  
 
-## Demo
+### 📌 Important:
+### 1. The tool only characterizes combinational cells for nodes greater that or equal to 130nm because it is based on the Non linear delay model (NLDM) for timing characterization. The support for sequential cells will be added in the future.
+### 2. I still have to refactor the code, task I will be doing while I study my courses on Software Development on Coursera.
+<br>
 
-> 📌 **Important:**  
-> The output load are in picofarads [pF] and the transition times in nanoseconds [ns].  
-> The tool currently only supports combinational
+## Demo
+> ⚠️ **Instructions:**  
+> **The output loads are in picofarads [pF] and the transition times in nanoseconds [ns].**
 
 ~~~ bash
 python3 dscc.py thesis_aoi211.mag \\
