@@ -2,7 +2,7 @@
 
 ## Demo
 
-> 📌 **Notes:** 
+> 📌 **Important:**  
 > The output load are in picofarads [pF] and the transition times in nanoseconds [ns].  
 > The tool currently only supports combinational
 
@@ -12,6 +12,8 @@ python3 dscc.py thesis_aoi211.mag \\
 --output-loads="0.05, 0.1" \\
 --slew-rates="0.1, 0.2"
 ~~~
+
+<div align="center"><video src="demo_dscc.mp4" controls title="Title"></video></div>
 
 ## Slides
 #### In these slides you will find an explanation on how the tool was developed, that is, the algorithms to characterize the cells and to identify the logical function of them. This tool was developed to be used in the main proyect of [Open-Source Standard Cell Design Methodology](https://github.com/ledzeg/stdcell-methodology) 
