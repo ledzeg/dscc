@@ -1,5 +1,11 @@
 # Digital Standard Cell Characterizer (DSCC)  
 
+### This tool was developed to characterize the cells design using the methodology described in [Open-Source Standard Cell Design Methodology](https://github.com/ledzeg/stdcell-methodology)
+
+
+
+<div style="text-align: center"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSiSyyyWhbehkQ2xNrCZK2VOh_s4KmKSZHU7BYJNZw7zeUBU8BMkgzOVHIq0tX81F9O7TQF6yfjhio4/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> </div>
+
 This tool generates characterization data from the layout of the cell.  
 The tool currently support combinational cells.
 
