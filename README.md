@@ -6,8 +6,10 @@
 <br>
 
 ## Demo
-**📌 Instructions:**  
-**The output loads are in picofarads [pF] and the transition times in nanoseconds [ns].**
+### 📌 Instructions:
+- **The layout file must have the extension `.mag` associated with [Magic Layout Tool](http://opencircuitdesign.com/magic/).**
+- **If you installed the PDK in the default path `/usr/local`, it is not necessary to use the argument `---sky130-root`.**
+- **The output loads are in picofarads [pF] and the transition times in nanoseconds [ns].**
 
 ~~~ bash
 python3 dscc.py thesis_aoi211.mag \\
@@ -23,6 +25,6 @@ python3 dscc.py thesis_aoi211.mag \\
 <br>
 <div align="center"><b >👇🏼 Click on the image to watch the slides</b></div>
 <br>
-<div align="center"><a href="https://docs.google.com/presentation/d/e/2PACX-1vSiSyyyWhbehkQ2xNrCZK2VOh_s4KmKSZHU7BYJNZw7zeUBU8BMkgzOVHIq0tX81F9O7TQF6yfjhio4/embed?start=true&loop=true&delayms=3000"><img src="slides_cover.png" target="_blank" frameborder="0" width="680" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></a></div>
+<div align="center"><a href="https://docs.google.com/presentation/d/e/2PACX-1vSiSyyyWhbehkQ2xNrCZK2VOh_s4KmKSZHU7BYJNZw7zeUBU8BMkgzOVHIq0tX81F9O7TQF6yfjhio4/pub?start=false&loop=false&delayms=60000"><img src="slides_cover.png" target="_blank" frameborder="0" width="680" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></a></div>
 
 
